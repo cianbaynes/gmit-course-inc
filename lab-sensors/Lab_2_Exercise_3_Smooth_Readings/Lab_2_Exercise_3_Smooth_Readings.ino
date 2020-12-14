@@ -44,5 +44,5 @@ void loop() {
   average = total / numReadings;
   // send it to the computer as ASCII digits
   Serial.println(average);
-  delay(100);        // delay in between reads for stability
+  delay(1);        // delay in between reads for stability
 }
